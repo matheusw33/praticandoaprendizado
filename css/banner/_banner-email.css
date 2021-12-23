@@ -1,0 +1,7 @@
+.banner__form--email{
+    border-radius: 35px;
+    border: solid 2px var(--cinza-escuro);
+    margin-top: 2rem;
+    padding:.8rem;
+    width: 20rem;
+}

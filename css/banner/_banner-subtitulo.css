@@ -1,0 +1,10 @@
+.banner__subtitulo{
+    color: var(--preto);
+    font-size: 3rem;
+    font-weight: 300;
+}
+@media screen and (max-width: 768px){
+    .banner__subtitulo{
+        font-size: 2rem;
+    }
+}

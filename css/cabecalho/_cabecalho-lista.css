@@ -1,0 +1,28 @@
+.cabecalho__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+@media screen and (max-width: 768px){
+    .cabecalho__lista{
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        background-color: var(--rodape);
+        height: 0;
+        z-index: 1000;
+        display: block;
+        transition: all .5s;
+        width: 90vw;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    .ativo .cabecalho__lista{
+       height:calc(100vh - 5rem);
+       visibility: visible;
+       overflow: auto;
+    }
+    .cabecalho__lista li{
+        text-align: center;
+    }
+}

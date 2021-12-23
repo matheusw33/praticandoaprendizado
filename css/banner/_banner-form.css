@@ -1,0 +1,10 @@
+.banner__form{
+    align-items: baseline;
+    display: flex;
+}
+@media screen and (max-width: 768px){
+ .banner__form{
+    justify-content: center;   
+    flex-direction: column;
+ } 
+}

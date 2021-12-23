@@ -1,0 +1,26 @@
+@import url(_cabecalho-link.css);
+@import url(_cabecalho-navegacao.css);
+@import url(_cabecalho-lista.css);
+@import url(_cabecalho-botao.css);
+@import url(_menu-mobile.css);
+
+.cabecalho{
+    align-items: center;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 1030px){
+    .cabecalho{
+        padding: 1rem ;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        justify-content: space-between;
+    }
+}

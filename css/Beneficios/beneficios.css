@@ -1,0 +1,17 @@
+@import url(_beneficios-titulo.css);
+@import url(_beneficios-textos.css);
+@import url(_beneficios-container.css);
+@import url(_beneficios-imagem.css);
+@import url(_beneficios-lista.css);
+@import url(_beneficios-item.css);
+@import url(_beneficios-destaque.css);
+
+.beneficios{
+    margin-top: 8rem;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .beneficios{
+        margin-top: 4rem;
+    } 
+}

@@ -1,0 +1,23 @@
+.rodape__caixa{
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa__imagens{
+    margin-top: 2rem;
+    max-width: 150px;
+}
+.caixa__logo{
+    width: 150px;
+}
+
+@media screen and (max-width:768px){
+    .caixa__imagens{
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    .caixa__logo{
+        width: 10rem;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,13 @@
+.beneficios__imagem{
+    width: 40%;
+}
+@media screen and (max-width: 1030px){
+    .beneficios__imagem{
+        width: 30%;
+    } 
+}
+@media screen and (max-width: 886px){
+    .beneficios__imagem{
+        display: none;
+    }
+}

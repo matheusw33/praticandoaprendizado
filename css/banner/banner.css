@@ -1,0 +1,29 @@
+@import url(_banner-titulo.css);
+@import url(_banner-subtitulo.css);
+@import url(_banner-enviar.css);
+@import url(_banner-email.css);
+@import url(_banner-conteudo.css);
+@import url(_banner-imagem.css);
+@import url(_banner-form.css);
+@import url(_banner-imagem.css);
+
+.banner{
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1030px){
+    .banner{
+        height: auto;
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner{
+        margin-top: 0; 
+        flex-direction: column-reverse;
+    } 
+}

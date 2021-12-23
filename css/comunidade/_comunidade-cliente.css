@@ -1,0 +1,35 @@
+.comunidade__cliente{
+    margin: 0 2rem;
+    border-radius: 15px;
+    max-width: 12rem;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    color: var(--branco);
+
+}
+.comunidade__cliente--yellow{
+    background-color: var(--amarelo);
+}
+.comunidade__cliente--red{
+    background-color: var(--vermelho);
+}
+.comunidade__cliente--blue{
+    background-color: var(--azul);
+}
+
+/*CLIENTE NUMERO*/
+
+.comunidade__cliente--numero{
+    font-size: 1.3rem;
+}
+
+/*CLIENTE TEXTO*/
+.comunidade__cliente--texto{
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1030px){
+    .comunidade__cliente{
+        margin:1rem;
+    }
+}

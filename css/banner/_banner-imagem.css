@@ -1,0 +1,25 @@
+.banner__container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 65%;
+}
+.banner__container--imagem{
+    bottom: 50%;
+    left: -30px;
+    position: absolute;
+    transform: translateY(55%);
+    z-index: -10;
+    width: 100%;
+}
+
+@media screen and (max-width: 1030px){
+    .banner__container{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+ .banner__container{
+     display: none;
+ }   
+}

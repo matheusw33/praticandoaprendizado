@@ -1,0 +1,42 @@
+.menu-mobile{
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid var(--cinza-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+.menu-btn{
+    border-top: 4px solid var(--cinza-escuro);
+    width: 2rem;
+}
+.menu-btn::after, .menu-btn::before{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 2rem;
+    background-color: var(--cinza-escuro);
+    margin-top: 5px;
+    position: relative;
+    transition: all .5s;
+}
+
+@media screen and (max-width:768px) {
+    .menu-mobile{
+        position: relative;
+        opacity: 1;
+    }
+    .ativo .menu-btn{
+        border-top: transparent;
+    }
+    .ativo .menu-btn::after{
+        transform: rotate(135deg);
+        top: -9px;
+    }
+    .ativo .menu-btn::before{
+        transform: rotate(-135deg);
+    }
+}

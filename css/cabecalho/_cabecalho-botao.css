@@ -1,0 +1,20 @@
+.cabecalho__botao{
+    background-color: var(--cor-botao);
+    border-radius: 35px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: inherit;
+    margin-left: 3rem;
+    padding: .7rem 1.5rem;
+    transition: all .4s;
+}
+
+.cabecalho__botao:hover{
+    background-color:var(--amarelo) ;
+}
+
+@media screen and (max-width: 768px){
+ .cabecalho__botao{
+     display: none;
+ }   
+}

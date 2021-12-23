@@ -1,0 +1,18 @@
+.banner__conteudo{
+    width: 35%;
+}
+
+@media screen and (max-width: 1030px){
+    .banner__conteudo{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px){
+    .banner__conteudo{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+}

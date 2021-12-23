@@ -1,0 +1,10 @@
+@import url(_rodape-imagem.css);
+@import url(_rodape-links.css);
+@import url(_rodape-listas.css);
+@import url(_rodape-titulos.css);
+@import url(_rodape-container.css);
+
+.rodape{
+    padding: 3rem 0;
+    background-color: var(--rodape);
+}

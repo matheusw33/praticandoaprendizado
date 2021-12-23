@@ -1,0 +1,27 @@
+.rodape__listas{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.rodape__lista{
+    min-width:10rem;
+}
+@media screen and (max-width: 1030px){
+    .rodape__listas{
+        justify-content: flex-start;
+    }
+    .rodape__lista{
+        margin-bottom: 1.5rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .rodape__listas{      
+        margin: 3rem 0;  
+    }
+    .rodape__lista{
+        margin-left: 0;
+    }
+}
